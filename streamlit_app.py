@@ -101,11 +101,11 @@ if streamlit.button('Add a Fruit to the List'):
   back_from_function = insert_row_snowflake(add_my_fruit)
   streamlit.text(back_from_function)
 
-fruit_names = ["jackfruit", "papaya", "guava", "kiwi"]
+# fruit_names = ["jackfruit", "papaya", "guava", "kiwi"]
 
-for fruit in fruit_names:
-    result = insert_row_snowflake(fruit)
-    print(result)
+# for fruit in fruit_names:
+#     result = insert_row_snowflake(fruit)
+#     print(result)
   
 # streamlit.write('Thanks for adding', add_my_fruit)
 
