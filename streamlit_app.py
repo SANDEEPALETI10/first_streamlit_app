@@ -30,7 +30,7 @@ fruityvice_response = requests.get("https://fruityvice.com/api/fruit/" + fruit_c
 add_my_fruit = streamlit.text_input('What fruit would you like to add?','jackfruit')
 streamlit.write('Thanks for adding', add_my_fruit)
 
-fruityvice_response = requests.get("https://fruityvice.com/api/fruit/" + add_my_fruit)
+
 
 
 # write your own comment -what does the next line do? 
